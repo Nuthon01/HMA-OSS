@@ -29,7 +29,7 @@ fun getUncommittedSuffix(): String {
         return ""
     }
 
-    return "-dirty+${result.count { it == '\n' } + 1}"
+    return "-canary_${result.count { it == '\n' } + 1}"
 }
 
 val gitHasUncommittedSuffix = getUncommittedSuffix()
@@ -42,7 +42,7 @@ val minSdkVer by extra(29)
 val targetSdkVer by extra(36)
 
 val appVerCode = gitCommitCount + 0x6f7373 // commit count + 0xOSS
-val appVerName by extra("oss-${gitCommitCountAfterOss}${gitHasUncommittedSuffix}")
+val appVerName by extra("zako-${gitCommitCountAfterOss}${gitHasUncommittedSuffix}")
 
 /*
  * configVerCode, serviceVerCode and minBackupVerCode is used by other build.gradle.kts files

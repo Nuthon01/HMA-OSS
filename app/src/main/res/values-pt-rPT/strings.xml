@@ -153,7 +153,7 @@
     <string name="settings_stop_system_service">Parar serviço do sistema</string>
     <string name="settings_stop_system_service_summary">É necessário reiniciar para reiniciar o serviço</string>
     <string name="settings_is_clean_env">Limpar ambiente de execução ao mesmo tempo?</string>
-    <string name="settings_is_clean_env_summary">Remove a cache do serviço do sistema em /data/misc/hide_my_applist_*. Isto significa que precisa de iniciar a aplicação do módulo manualmente uma vez após o próximo reinício para ativar as interceções, e as contagens de interceção também serão limpas.</string>
+    <string name="settings_is_clean_env_summary">Remove a cache do serviço do sistema em /data/misc/Ciallo_*. Isto significa que precisa de iniciar a aplicação do módulo manualmente uma vez após o próximo reinício para ativar as interceções, e as contagens de interceção também serão limpas.</string>
     <string name="settings_force_clean_env">Forçar limpeza do ambiente de execução (root)</string>
     <string name="settings_force_clean_env_summary">Apenas se o serviço do sistema falhar ao iniciar. Caso contrário, deve clicar na opção acima.</string>
     <string name="settings_force_clean_env_toast_successful">Ambiente de execução limpo</string>
